@@ -1,0 +1,25 @@
+{
+  "name": "@bilaljutt123/atm-banks-cli",
+  "version": "1.0.1",
+  "main": "index.js",
+  "type": "module",
+  "bin": "./dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Muhammad Bilal Hussain",
+  "license": "ISC",
+  "description": "A CLI based Bank ATM using typescript and published as an executable npm package",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.7"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  }
+}
